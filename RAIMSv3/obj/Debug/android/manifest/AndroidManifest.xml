@@ -16,6 +16,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="Result" android:theme="@style/MyTheme2" android:name="md50fe38db8e6499cf92b9c510929d3b70b.result" />
     <activity android:label="Test" android:theme="@style/MyTheme2" android:name="md50fe38db8e6499cf92b9c510929d3b70b.test" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="RAIMSv3.RAIMSv3.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->

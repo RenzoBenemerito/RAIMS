@@ -19,6 +19,10 @@ using Uri = Android.Net.Uri;
 using Android.Graphics;
 using Android.Provider;
 using Android.Content.PM;
+using Microsoft.Cognitive.CustomVision.Training;
+using Microsoft.Cognitive.CustomVision.Training.Models;
+using Microsoft.Cognitive.CustomVision.Prediction;
+using Java.Util;
 
 namespace RAIMS
 {
@@ -69,7 +73,8 @@ namespace RAIMS
         private ArrayAdapter mLeftAdapter;
         private List<string> mLeftDataSet;
         private ImageView _imageView;
-
+        private static Project project;
+        private string resultSet;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -117,6 +122,35 @@ namespace RAIMS
             mLeftDrawer.ItemClick += MLeftDrawer_ItemClick;
 
 
+        }
+        private string connectToAnalyze()
+        {
+            // custom vision
+            TrainingApi trainingAPI = new TrainingApi() { ApiKey = "1360135bcfaa45d5b6d69dc06dcb04e4" };
+            Guid _projectkey = new Guid("ea8591bc-bff1-47d6-b46d-64938d2d8b58");
+
+            project = trainingAPI.GetProject(_projectkey);
+
+            PredictionEndpoint endpoint = new PredictionEndpoint() { ApiKey = "65125a9d5a774acaaeaa0f9705404307" };
+            // 28bf5d1c-1025-4d3f-a7d7-4dfd4b65f4a1   iteration key
+
+
+            ArrayList lists = new ArrayList();
+
+            byte[] imgArr = GetFileAsByteArray(App._file.AbsolutePath);
+            System.IO.MemoryStream stream = new System.IO.MemoryStream(imgArr);
+            var result = endpoint.PredictImage(project.Id, stream, new Guid("28bf5d1c-1025-4d3f-a7d7-4dfd4b65f4a1"));
+            foreach (var prediction in result.Predictions)
+            {
+                lists.Add($"{prediction.Tag} {prediction.Probability}");
+            }
+            return lists.Get(0).ToString();
+        }
+        static byte[] GetFileAsByteArray(string filePath)
+        {
+            System.IO.FileStream fileStream = new System.IO.FileStream(filePath, System.IO.FileMode.Open, System.IO.FileAccess.Read);
+            System.IO.BinaryReader binaryReader = new System.IO.BinaryReader(fileStream);
+            return binaryReader.ReadBytes((int)fileStream.Length);
         }
         private void CreateDirectoryForPictures()
         {
@@ -167,10 +201,21 @@ namespace RAIMS
                 _imageView.SetImageBitmap(App.bitmap);
                 App.bitmap = null;
             }
+            //send result to next activity
+            resultSet = connectToAnalyze();
+            FindViewById<Button>(Resource.Id.sendButton).Click += Camera_Click;
 
             // Dispose of the Java side bitmap.
             GC.Collect();
         }
+
+        private void Camera_Click(object sender, EventArgs e)
+        {
+            var send = new Intent(this, typeof(result));
+            send.PutExtra("MyData", resultSet);
+            StartActivity(send);
+        }
+
         private void MLeftDrawer_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
             if (mLeftDataSet[e.Position] == "Home")

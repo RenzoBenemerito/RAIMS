@@ -26,6 +26,10 @@ RAIMS.MainActivity, RAIMSv3;md50fe38db8e6499cf92b9c510929d3b70b.MainActivity
 RAIMS.MainActivity, RAIMSv3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50fe38db8e6499cf92b9c510929d3b70b.MainActivity
 RAIMS.MainActivity;md50fe38db8e6499cf92b9c510929d3b70b.MainActivity
 raims.MainActivity;md50fe38db8e6499cf92b9c510929d3b70b.MainActivity
+RAIMS.result, RAIMSv3;md50fe38db8e6499cf92b9c510929d3b70b.result
+RAIMS.result, RAIMSv3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50fe38db8e6499cf92b9c510929d3b70b.result
+RAIMS.result;md50fe38db8e6499cf92b9c510929d3b70b.result
+raims.result;md50fe38db8e6499cf92b9c510929d3b70b.result
 RAIMS.test, RAIMSv3;md50fe38db8e6499cf92b9c510929d3b70b.test
 RAIMS.test, RAIMSv3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50fe38db8e6499cf92b9c510929d3b70b.test
 RAIMS.test;md50fe38db8e6499cf92b9c510929d3b70b.test

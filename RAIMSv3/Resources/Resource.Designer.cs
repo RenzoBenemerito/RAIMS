@@ -1192,8 +1192,8 @@ namespace RAIMSv3
 			// aapt resource value: 0x7f08001c
 			public const int dropdown = 2131230748;
 			
-			// aapt resource value: 0x7f080047
-			public const int editText1 = 2131230791;
+			// aapt resource value: 0x7f080048
+			public const int editText1 = 2131230792;
 			
 			// aapt resource value: 0x7f080033
 			public const int edit_query = 2131230771;
@@ -1225,8 +1225,8 @@ namespace RAIMSv3
 			// aapt resource value: 0x7f080042
 			public const int imageView1 = 2131230786;
 			
-			// aapt resource value: 0x7f080043
-			public const int left_drawer = 2131230787;
+			// aapt resource value: 0x7f080044
+			public const int left_drawer = 2131230788;
 			
 			// aapt resource value: 0x7f080009
 			public const int listMode = 2131230729;
@@ -1234,14 +1234,14 @@ namespace RAIMSv3
 			// aapt resource value: 0x7f080025
 			public const int list_item = 2131230757;
 			
-			// aapt resource value: 0x7f080048
-			public const int loginButton = 2131230792;
+			// aapt resource value: 0x7f080049
+			public const int loginButton = 2131230793;
 			
 			// aapt resource value: 0x7f080015
 			public const int middle = 2131230741;
 			
-			// aapt resource value: 0x7f080051
-			public const int mood = 2131230801;
+			// aapt resource value: 0x7f080053
+			public const int mood = 2131230803;
 			
 			// aapt resource value: 0x7f080041
 			public const int myButton = 2131230785;
@@ -1249,8 +1249,8 @@ namespace RAIMSv3
 			// aapt resource value: 0x7f080019
 			public const int never = 2131230745;
 			
-			// aapt resource value: 0x7f080052
-			public const int nextButton = 2131230802;
+			// aapt resource value: 0x7f080054
+			public const int nextButton = 2131230804;
 			
 			// aapt resource value: 0x7f08000e
 			public const int none = 2131230734;
@@ -1258,11 +1258,11 @@ namespace RAIMSv3
 			// aapt resource value: 0x7f08000a
 			public const int normal = 2131230730;
 			
-			// aapt resource value: 0x7f080049
-			public const int pain = 2131230793;
+			// aapt resource value: 0x7f08004b
+			public const int pain = 2131230795;
 			
-			// aapt resource value: 0x7f080045
-			public const int password = 2131230789;
+			// aapt resource value: 0x7f080046
+			public const int password = 2131230790;
 			
 			// aapt resource value: 0x7f080005
 			public const int progress_circular = 2131230725;
@@ -1273,20 +1273,23 @@ namespace RAIMSv3
 			// aapt resource value: 0x7f08002b
 			public const int radio = 2131230763;
 			
-			// aapt resource value: 0x7f08004a
-			public const int radioButton1 = 2131230794;
-			
-			// aapt resource value: 0x7f08004b
-			public const int radioButton2 = 2131230795;
-			
 			// aapt resource value: 0x7f08004c
-			public const int radioButton3 = 2131230796;
+			public const int radioButton1 = 2131230796;
 			
 			// aapt resource value: 0x7f08004d
-			public const int radioButton4 = 2131230797;
+			public const int radioButton2 = 2131230797;
 			
 			// aapt resource value: 0x7f08004e
-			public const int radioButton5 = 2131230798;
+			public const int radioButton3 = 2131230798;
+			
+			// aapt resource value: 0x7f08004f
+			public const int radioButton4 = 2131230799;
+			
+			// aapt resource value: 0x7f080050
+			public const int radioButton5 = 2131230800;
+			
+			// aapt resource value: 0x7f08004a
+			public const int resultSet = 2131230794;
 			
 			// aapt resource value: 0x7f080035
 			public const int search_badge = 2131230773;
@@ -1318,6 +1321,9 @@ namespace RAIMSv3
 			// aapt resource value: 0x7f08003e
 			public const int search_voice_btn = 2131230782;
 			
+			// aapt resource value: 0x7f080043
+			public const int sendButton = 2131230787;
+			
 			// aapt resource value: 0x7f08002a
 			public const int shortcut = 2131230762;
 			
@@ -1333,20 +1339,20 @@ namespace RAIMSv3
 			// aapt resource value: 0x7f080007
 			public const int split_action_bar = 2131230727;
 			
-			// aapt resource value: 0x7f080050
-			public const int stiff = 2131230800;
+			// aapt resource value: 0x7f080052
+			public const int stiff = 2131230802;
 			
 			// aapt resource value: 0x7f08003c
 			public const int submit_area = 2131230780;
 			
-			// aapt resource value: 0x7f08004f
-			public const int swell = 2131230799;
+			// aapt resource value: 0x7f080051
+			public const int swell = 2131230801;
 			
 			// aapt resource value: 0x7f08000b
 			public const int tabMode = 2131230731;
 			
-			// aapt resource value: 0x7f080046
-			public const int textView1 = 2131230790;
+			// aapt resource value: 0x7f080047
+			public const int textView1 = 2131230791;
 			
 			// aapt resource value: 0x7f080027
 			public const int title = 2131230759;
@@ -1360,8 +1366,8 @@ namespace RAIMSv3
 			// aapt resource value: 0x7f080012
 			public const int useLogo = 2131230738;
 			
-			// aapt resource value: 0x7f080044
-			public const int username = 2131230788;
+			// aapt resource value: 0x7f080045
+			public const int username = 2131230789;
 			
 			// aapt resource value: 0x7f08001a
 			public const int withText = 2131230746;
@@ -1480,13 +1486,16 @@ namespace RAIMSv3
 			public const int Main = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int support_simple_spinner_dropdown_item = 2130903067;
+			public const int result = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int test = 2130903068;
+			public const int support_simple_spinner_dropdown_item = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int therapy = 2130903069;
+			public const int test = 2130903069;
+			
+			// aapt resource value: 0x7f03001e
+			public const int therapy = 2130903070;
 			
 			static Layout()
 			{

@@ -1,3 +1,6 @@
+Microsoft.Cognitive.CustomVision.Prediction
+Microsoft.Cognitive.CustomVision.Training
+Microsoft.Rest.ClientRuntime
 Newtonsoft.Json
 System.Runtime
 Xamarin.Android.Support.v4

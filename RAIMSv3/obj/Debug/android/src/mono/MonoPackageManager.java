@@ -107,6 +107,9 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "RAIMSv3.dll" comes first in this list. */
 		"RAIMSv3.dll",
+		"Microsoft.Cognitive.CustomVision.Prediction.dll",
+		"Microsoft.Cognitive.CustomVision.Training.dll",
+		"Microsoft.Rest.ClientRuntime.dll",
 		"Newtonsoft.Json.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Android.Support.v7.AppCompat.dll",
