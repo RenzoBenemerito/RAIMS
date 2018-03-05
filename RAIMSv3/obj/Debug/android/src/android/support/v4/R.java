@@ -16,6 +16,9 @@ public final class R {
         public static int abc_slide_out_bottom=0x7f040004;
         public static int abc_slide_out_top=0x7f040005;
     }
+    public static final class array {
+        public static int dropdown=0x7f0c0000;
+    }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -1623,14 +1626,18 @@ containing a value of this type.
         public static int action_mode_bar_stub=0x7f08002d;
         public static int action_mode_close_button=0x7f080020;
         public static int activity_chooser_view_content=0x7f080021;
+        public static int age=0x7f080050;
         public static int always=0x7f080016;
         public static int beginning=0x7f080013;
         public static int checkbox=0x7f080029;
         public static int collapseActionView=0x7f080017;
+        public static int contactNum=0x7f080051;
         public static int decor_content_parent=0x7f08002f;
         public static int default_activity_button=0x7f080024;
         public static int dialog=0x7f08001b;
         public static int disableHome=0x7f08000c;
+        public static int doctor=0x7f080053;
+        public static int doctorLabel=0x7f080052;
         public static int drawer_layout=0x7f080040;
         public static int dropdown=0x7f08001c;
         public static int editText1=0x7f080048;
@@ -1638,6 +1645,7 @@ containing a value of this type.
         public static int end=0x7f080014;
         public static int expand_activities_button=0x7f080022;
         public static int expanded_menu=0x7f080028;
+        public static int gender=0x7f08004f;
         public static int home=0x7f080004;
         public static int homeAsUp=0x7f08000d;
         public static int icon=0x7f080026;
@@ -1649,23 +1657,25 @@ containing a value of this type.
         public static int list_item=0x7f080025;
         public static int loginButton=0x7f080049;
         public static int middle=0x7f080015;
-        public static int mood=0x7f080053;
+        public static int mood=0x7f08005d;
         public static int myButton=0x7f080041;
+        public static int name=0x7f08004e;
         public static int never=0x7f080019;
-        public static int nextButton=0x7f080054;
+        public static int nextButton=0x7f08005e;
         public static int none=0x7f08000e;
         public static int normal=0x7f08000a;
-        public static int pain=0x7f08004b;
+        public static int pain=0x7f080055;
         public static int password=0x7f080046;
         public static int progress_circular=0x7f080005;
         public static int progress_horizontal=0x7f080006;
         public static int radio=0x7f08002b;
-        public static int radioButton1=0x7f08004c;
-        public static int radioButton2=0x7f08004d;
-        public static int radioButton3=0x7f08004e;
-        public static int radioButton4=0x7f08004f;
-        public static int radioButton5=0x7f080050;
-        public static int resultSet=0x7f08004a;
+        public static int radioButton1=0x7f080056;
+        public static int radioButton2=0x7f080057;
+        public static int radioButton3=0x7f080058;
+        public static int radioButton4=0x7f080059;
+        public static int radioButton5=0x7f08005a;
+        public static int resultData=0x7f08004b;
+        public static int resultSet=0x7f08004c;
         public static int search_badge=0x7f080035;
         public static int search_bar=0x7f080034;
         public static int search_button=0x7f080036;
@@ -1681,10 +1691,12 @@ containing a value of this type.
         public static int showCustom=0x7f08000f;
         public static int showHome=0x7f080010;
         public static int showTitle=0x7f080011;
+        public static int signButton=0x7f080054;
+        public static int signupButton=0x7f08004a;
         public static int split_action_bar=0x7f080007;
-        public static int stiff=0x7f080052;
+        public static int stiff=0x7f08005c;
         public static int submit_area=0x7f08003c;
-        public static int swell=0x7f080051;
+        public static int swell=0x7f08005b;
         public static int tabMode=0x7f08000b;
         public static int textView1=0x7f080047;
         public static int title=0x7f080027;
@@ -1692,6 +1704,7 @@ containing a value of this type.
         public static int up=0x7f080008;
         public static int useLogo=0x7f080012;
         public static int username=0x7f080045;
+        public static int usernameLabel=0x7f08004d;
         public static int withText=0x7f08001a;
         public static int wrap_content=0x7f08001d;
     }
@@ -1727,9 +1740,10 @@ containing a value of this type.
         public static int history=0x7f030019;
         public static int main=0x7f03001a;
         public static int result=0x7f03001b;
-        public static int support_simple_spinner_dropdown_item=0x7f03001c;
-        public static int test=0x7f03001d;
-        public static int therapy=0x7f03001e;
+        public static int signup=0x7f03001c;
+        public static int support_simple_spinner_dropdown_item=0x7f03001d;
+        public static int test=0x7f03001e;
+        public static int therapy=0x7f03001f;
     }
     public static final class string {
         public static int abc_action_bar_home_description=0x7f0a0000;
@@ -1751,6 +1765,7 @@ containing a value of this type.
         public static int app_name=0x7f0a0010;
         public static int drawer_close=0x7f0a0012;
         public static int drawer_open=0x7f0a0011;
+        public static int gender=0x7f0a0015;
         public static int hello=0x7f0a0013;
         public static int openCamera=0x7f0a0014;
     }

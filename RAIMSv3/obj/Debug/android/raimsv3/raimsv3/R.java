@@ -16,6 +16,9 @@ public final class R {
         public static final int abc_slide_out_bottom=0x7f040004;
         public static final int abc_slide_out_top=0x7f040005;
     }
+    public static final class array {
+        public static final int dropdown=0x7f0c0000;
+    }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -1623,14 +1626,18 @@ containing a value of this type.
         public static final int action_mode_bar_stub=0x7f08002d;
         public static final int action_mode_close_button=0x7f080020;
         public static final int activity_chooser_view_content=0x7f080021;
+        public static final int age=0x7f080050;
         public static final int always=0x7f080016;
         public static final int beginning=0x7f080013;
         public static final int checkbox=0x7f080029;
         public static final int collapseActionView=0x7f080017;
+        public static final int contactNum=0x7f080051;
         public static final int decor_content_parent=0x7f08002f;
         public static final int default_activity_button=0x7f080024;
         public static final int dialog=0x7f08001b;
         public static final int disableHome=0x7f08000c;
+        public static final int doctor=0x7f080053;
+        public static final int doctorLabel=0x7f080052;
         public static final int drawer_layout=0x7f080040;
         public static final int dropdown=0x7f08001c;
         public static final int editText1=0x7f080048;
@@ -1638,6 +1645,7 @@ containing a value of this type.
         public static final int end=0x7f080014;
         public static final int expand_activities_button=0x7f080022;
         public static final int expanded_menu=0x7f080028;
+        public static final int gender=0x7f08004f;
         public static final int home=0x7f080004;
         public static final int homeAsUp=0x7f08000d;
         public static final int icon=0x7f080026;
@@ -1649,23 +1657,25 @@ containing a value of this type.
         public static final int list_item=0x7f080025;
         public static final int loginButton=0x7f080049;
         public static final int middle=0x7f080015;
-        public static final int mood=0x7f080053;
+        public static final int mood=0x7f08005d;
         public static final int myButton=0x7f080041;
+        public static final int name=0x7f08004e;
         public static final int never=0x7f080019;
-        public static final int nextButton=0x7f080054;
+        public static final int nextButton=0x7f08005e;
         public static final int none=0x7f08000e;
         public static final int normal=0x7f08000a;
-        public static final int pain=0x7f08004b;
+        public static final int pain=0x7f080055;
         public static final int password=0x7f080046;
         public static final int progress_circular=0x7f080005;
         public static final int progress_horizontal=0x7f080006;
         public static final int radio=0x7f08002b;
-        public static final int radioButton1=0x7f08004c;
-        public static final int radioButton2=0x7f08004d;
-        public static final int radioButton3=0x7f08004e;
-        public static final int radioButton4=0x7f08004f;
-        public static final int radioButton5=0x7f080050;
-        public static final int resultSet=0x7f08004a;
+        public static final int radioButton1=0x7f080056;
+        public static final int radioButton2=0x7f080057;
+        public static final int radioButton3=0x7f080058;
+        public static final int radioButton4=0x7f080059;
+        public static final int radioButton5=0x7f08005a;
+        public static final int resultData=0x7f08004b;
+        public static final int resultSet=0x7f08004c;
         public static final int search_badge=0x7f080035;
         public static final int search_bar=0x7f080034;
         public static final int search_button=0x7f080036;
@@ -1681,10 +1691,12 @@ containing a value of this type.
         public static final int showCustom=0x7f08000f;
         public static final int showHome=0x7f080010;
         public static final int showTitle=0x7f080011;
+        public static final int signButton=0x7f080054;
+        public static final int signupButton=0x7f08004a;
         public static final int split_action_bar=0x7f080007;
-        public static final int stiff=0x7f080052;
+        public static final int stiff=0x7f08005c;
         public static final int submit_area=0x7f08003c;
-        public static final int swell=0x7f080051;
+        public static final int swell=0x7f08005b;
         public static final int tabMode=0x7f08000b;
         public static final int textView1=0x7f080047;
         public static final int title=0x7f080027;
@@ -1692,6 +1704,7 @@ containing a value of this type.
         public static final int up=0x7f080008;
         public static final int useLogo=0x7f080012;
         public static final int username=0x7f080045;
+        public static final int usernameLabel=0x7f08004d;
         public static final int withText=0x7f08001a;
         public static final int wrap_content=0x7f08001d;
     }
@@ -1727,9 +1740,10 @@ containing a value of this type.
         public static final int history=0x7f030019;
         public static final int main=0x7f03001a;
         public static final int result=0x7f03001b;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
-        public static final int test=0x7f03001d;
-        public static final int therapy=0x7f03001e;
+        public static final int signup=0x7f03001c;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001d;
+        public static final int test=0x7f03001e;
+        public static final int therapy=0x7f03001f;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0a0000;
@@ -1751,6 +1765,7 @@ containing a value of this type.
         public static final int app_name=0x7f0a0010;
         public static final int drawer_close=0x7f0a0012;
         public static final int drawer_open=0x7f0a0011;
+        public static final int gender=0x7f0a0015;
         public static final int hello=0x7f0a0013;
         public static final int openCamera=0x7f0a0014;
     }

@@ -6,6 +6,10 @@ RAIMSv3.NewUserAct, RAIMSv3;md50f7bc6a99a35a3bfd29fa7ee542a5423.NewUserAct
 RAIMSv3.NewUserAct, RAIMSv3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50f7bc6a99a35a3bfd29fa7ee542a5423.NewUserAct
 RAIMSv3.NewUserAct;md50f7bc6a99a35a3bfd29fa7ee542a5423.NewUserAct
 raimsv3.NewUserAct;md50f7bc6a99a35a3bfd29fa7ee542a5423.NewUserAct
+RAIMSv3.signUp, RAIMSv3;md50f7bc6a99a35a3bfd29fa7ee542a5423.signUp
+RAIMSv3.signUp, RAIMSv3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50f7bc6a99a35a3bfd29fa7ee542a5423.signUp
+RAIMSv3.signUp;md50f7bc6a99a35a3bfd29fa7ee542a5423.signUp
+raimsv3.signUp;md50f7bc6a99a35a3bfd29fa7ee542a5423.signUp
 RAIMSv3.therapy, RAIMSv3;md50f7bc6a99a35a3bfd29fa7ee542a5423.therapy
 RAIMSv3.therapy, RAIMSv3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50f7bc6a99a35a3bfd29fa7ee542a5423.therapy
 RAIMSv3.therapy;md50f7bc6a99a35a3bfd29fa7ee542a5423.therapy

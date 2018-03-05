@@ -59,6 +59,22 @@ namespace RAIMSv3
 			}
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f0c0000
+			public const int dropdown = 2131492864;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -1162,6 +1178,9 @@ namespace RAIMSv3
 			// aapt resource value: 0x7f080021
 			public const int activity_chooser_view_content = 2131230753;
 			
+			// aapt resource value: 0x7f080050
+			public const int age = 2131230800;
+			
 			// aapt resource value: 0x7f080016
 			public const int always = 2131230742;
 			
@@ -1174,6 +1193,9 @@ namespace RAIMSv3
 			// aapt resource value: 0x7f080017
 			public const int collapseActionView = 2131230743;
 			
+			// aapt resource value: 0x7f080051
+			public const int contactNum = 2131230801;
+			
 			// aapt resource value: 0x7f08002f
 			public const int decor_content_parent = 2131230767;
 			
@@ -1185,6 +1207,12 @@ namespace RAIMSv3
 			
 			// aapt resource value: 0x7f08000c
 			public const int disableHome = 2131230732;
+			
+			// aapt resource value: 0x7f080053
+			public const int doctor = 2131230803;
+			
+			// aapt resource value: 0x7f080052
+			public const int doctorLabel = 2131230802;
 			
 			// aapt resource value: 0x7f080040
 			public const int drawer_layout = 2131230784;
@@ -1206,6 +1234,9 @@ namespace RAIMSv3
 			
 			// aapt resource value: 0x7f080028
 			public const int expanded_menu = 2131230760;
+			
+			// aapt resource value: 0x7f08004f
+			public const int gender = 2131230799;
 			
 			// aapt resource value: 0x7f080004
 			public const int home = 2131230724;
@@ -1240,17 +1271,20 @@ namespace RAIMSv3
 			// aapt resource value: 0x7f080015
 			public const int middle = 2131230741;
 			
-			// aapt resource value: 0x7f080053
-			public const int mood = 2131230803;
+			// aapt resource value: 0x7f08005d
+			public const int mood = 2131230813;
 			
 			// aapt resource value: 0x7f080041
 			public const int myButton = 2131230785;
 			
+			// aapt resource value: 0x7f08004e
+			public const int name = 2131230798;
+			
 			// aapt resource value: 0x7f080019
 			public const int never = 2131230745;
 			
-			// aapt resource value: 0x7f080054
-			public const int nextButton = 2131230804;
+			// aapt resource value: 0x7f08005e
+			public const int nextButton = 2131230814;
 			
 			// aapt resource value: 0x7f08000e
 			public const int none = 2131230734;
@@ -1258,8 +1292,8 @@ namespace RAIMSv3
 			// aapt resource value: 0x7f08000a
 			public const int normal = 2131230730;
 			
-			// aapt resource value: 0x7f08004b
-			public const int pain = 2131230795;
+			// aapt resource value: 0x7f080055
+			public const int pain = 2131230805;
 			
 			// aapt resource value: 0x7f080046
 			public const int password = 2131230790;
@@ -1273,23 +1307,26 @@ namespace RAIMSv3
 			// aapt resource value: 0x7f08002b
 			public const int radio = 2131230763;
 			
+			// aapt resource value: 0x7f080056
+			public const int radioButton1 = 2131230806;
+			
+			// aapt resource value: 0x7f080057
+			public const int radioButton2 = 2131230807;
+			
+			// aapt resource value: 0x7f080058
+			public const int radioButton3 = 2131230808;
+			
+			// aapt resource value: 0x7f080059
+			public const int radioButton4 = 2131230809;
+			
+			// aapt resource value: 0x7f08005a
+			public const int radioButton5 = 2131230810;
+			
+			// aapt resource value: 0x7f08004b
+			public const int resultData = 2131230795;
+			
 			// aapt resource value: 0x7f08004c
-			public const int radioButton1 = 2131230796;
-			
-			// aapt resource value: 0x7f08004d
-			public const int radioButton2 = 2131230797;
-			
-			// aapt resource value: 0x7f08004e
-			public const int radioButton3 = 2131230798;
-			
-			// aapt resource value: 0x7f08004f
-			public const int radioButton4 = 2131230799;
-			
-			// aapt resource value: 0x7f080050
-			public const int radioButton5 = 2131230800;
-			
-			// aapt resource value: 0x7f08004a
-			public const int resultSet = 2131230794;
+			public const int resultSet = 2131230796;
 			
 			// aapt resource value: 0x7f080035
 			public const int search_badge = 2131230773;
@@ -1336,17 +1373,23 @@ namespace RAIMSv3
 			// aapt resource value: 0x7f080011
 			public const int showTitle = 2131230737;
 			
+			// aapt resource value: 0x7f080054
+			public const int signButton = 2131230804;
+			
+			// aapt resource value: 0x7f08004a
+			public const int signupButton = 2131230794;
+			
 			// aapt resource value: 0x7f080007
 			public const int split_action_bar = 2131230727;
 			
-			// aapt resource value: 0x7f080052
-			public const int stiff = 2131230802;
+			// aapt resource value: 0x7f08005c
+			public const int stiff = 2131230812;
 			
 			// aapt resource value: 0x7f08003c
 			public const int submit_area = 2131230780;
 			
-			// aapt resource value: 0x7f080051
-			public const int swell = 2131230801;
+			// aapt resource value: 0x7f08005b
+			public const int swell = 2131230811;
 			
 			// aapt resource value: 0x7f08000b
 			public const int tabMode = 2131230731;
@@ -1368,6 +1411,9 @@ namespace RAIMSv3
 			
 			// aapt resource value: 0x7f080045
 			public const int username = 2131230789;
+			
+			// aapt resource value: 0x7f08004d
+			public const int usernameLabel = 2131230797;
 			
 			// aapt resource value: 0x7f08001a
 			public const int withText = 2131230746;
@@ -1489,13 +1535,16 @@ namespace RAIMSv3
 			public const int result = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int support_simple_spinner_dropdown_item = 2130903068;
+			public const int signUp = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int test = 2130903069;
+			public const int support_simple_spinner_dropdown_item = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int therapy = 2130903070;
+			public const int test = 2130903070;
+			
+			// aapt resource value: 0x7f03001f
+			public const int therapy = 2130903071;
 			
 			static Layout()
 			{
@@ -1566,6 +1615,9 @@ namespace RAIMSv3
 			
 			// aapt resource value: 0x7f0a0011
 			public const int drawer_open = 2131361809;
+			
+			// aapt resource value: 0x7f0a0015
+			public const int gender = 2131361813;
 			
 			// aapt resource value: 0x7f0a0013
 			public const int hello = 2131361811;

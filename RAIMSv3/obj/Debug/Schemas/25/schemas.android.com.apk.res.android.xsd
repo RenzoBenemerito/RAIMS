@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>3/4/2018 2:50:42 AM</xs:documentation>
+    <xs:documentation>3/5/2018 11:30:51 AM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -3636,6 +3636,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -3680,6 +3681,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -4296,6 +4298,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -4832,6 +4835,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -6041,6 +6045,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -6378,6 +6383,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -11127,6 +11133,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -11171,6 +11178,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -11787,6 +11795,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -11831,6 +11840,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -11875,6 +11885,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -16975,6 +16986,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -17114,13 +17126,19 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkedTextView1" />
+            <xs:enumeration value="@id/age" />
+            <xs:enumeration value="@id/contactNum" />
+            <xs:enumeration value="@id/doctor" />
+            <xs:enumeration value="@id/doctorLabel" />
             <xs:enumeration value="@id/drawer_layout" />
             <xs:enumeration value="@id/editText1" />
+            <xs:enumeration value="@id/gender" />
             <xs:enumeration value="@id/imageView1" />
             <xs:enumeration value="@id/left_drawer" />
             <xs:enumeration value="@id/loginButton" />
             <xs:enumeration value="@id/mood" />
             <xs:enumeration value="@id/myButton" />
+            <xs:enumeration value="@id/name" />
             <xs:enumeration value="@id/nextButton" />
             <xs:enumeration value="@id/pain" />
             <xs:enumeration value="@id/password" />
@@ -17129,13 +17147,17 @@
             <xs:enumeration value="@id/radioButton3" />
             <xs:enumeration value="@id/radioButton4" />
             <xs:enumeration value="@id/radioButton5" />
+            <xs:enumeration value="@id/resultData" />
             <xs:enumeration value="@id/resultSet" />
             <xs:enumeration value="@id/sendButton" />
+            <xs:enumeration value="@id/signButton" />
+            <xs:enumeration value="@id/signupButton" />
             <xs:enumeration value="@id/stiff" />
             <xs:enumeration value="@id/swell" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/toolbar" />
             <xs:enumeration value="@id/username" />
+            <xs:enumeration value="@id/usernameLabel" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
             <xs:enumeration value="@android:id/accessibilityActionScrollLeft" />
@@ -17472,6 +17494,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -18702,6 +18725,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -21183,6 +21207,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -21384,6 +21409,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -21642,6 +21668,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -22344,6 +22371,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -24271,6 +24299,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -26249,6 +26278,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -27244,6 +27274,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -30676,6 +30707,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -31954,6 +31986,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -33146,6 +33179,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -34824,6 +34858,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -34868,6 +34903,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -38480,6 +38516,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -38524,6 +38561,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -41025,6 +41063,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -41173,6 +41212,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />
@@ -42310,6 +42350,7 @@
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
+            <xs:enumeration value="@string/gender" />
             <xs:enumeration value="@string/hello" />
             <xs:enumeration value="@string/openCamera" />
             <xs:enumeration value="@android:string/cancel" />

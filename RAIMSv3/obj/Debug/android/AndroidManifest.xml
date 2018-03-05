@@ -6,6 +6,7 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:label="@string/app_name" android:name="android.app.Application" android:debuggable="true">
     <activity android:label="NewUserAct" android:name="md50f7bc6a99a35a3bfd29fa7ee542a5423.NewUserAct" />
+    <activity android:label="signUp" android:name="md50f7bc6a99a35a3bfd29fa7ee542a5423.signUp" />
     <activity android:label="Therapy" android:theme="@style/MyTheme2" android:name="md50f7bc6a99a35a3bfd29fa7ee542a5423.therapy" />
     <activity android:label="Camera" android:theme="@style/MyTheme2" android:name="md50fe38db8e6499cf92b9c510929d3b70b.camera" />
     <activity android:label="Dashboard" android:theme="@style/MyTheme2" android:name="md50fe38db8e6499cf92b9c510929d3b70b.dashboard" />

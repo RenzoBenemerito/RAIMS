@@ -18,10 +18,16 @@ namespace RAIMS
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
             FindViewById<Button>(Resource.Id.loginButton).Click += OnItemsClick;
+            FindViewById<Button>(Resource.Id.signupButton).Click += signMeUp;
         }
         void OnItemsClick(object sender, EventArgs e)
         {
-            StartActivity(typeof(dashboard));
+            Console.WriteLine("I did");
+            StartActivity(typeof(test));
+        }
+        void signMeUp(object sender, EventArgs e)
+        {
+            StartActivity(typeof(signUp));
         }
     }
 }

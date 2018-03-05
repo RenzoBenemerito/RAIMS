@@ -142,7 +142,7 @@ namespace RAIMS
             var result = endpoint.PredictImage(project.Id, stream, new Guid("28bf5d1c-1025-4d3f-a7d7-4dfd4b65f4a1"));
             foreach (var prediction in result.Predictions)
             {
-                lists.Add($"{prediction.Tag} {prediction.Probability}");
+                lists.Add($"{prediction.Tag}");
             }
             return lists.Get(0).ToString();
         }
